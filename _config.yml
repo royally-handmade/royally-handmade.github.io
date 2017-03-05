@@ -1,3 +1,7 @@
-theme: jekyll-theme-midnight
 title: Royally Handmade - Homepage
 description: A personal account of projects and learnings. Maybe even a funny anecdote or two.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-midnight
+highlighter: rouge
+encoding: bom|utf-8
