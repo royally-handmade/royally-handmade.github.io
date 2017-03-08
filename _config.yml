@@ -5,5 +5,3 @@ google_analytics:
 theme: jekyll-theme-minimal
 highlighter: rouge
 encoding: bom|utf-8
-gems: 
-	- jemoji
