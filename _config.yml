@@ -2,7 +2,7 @@ title: Royally Handmade - Homepage
 description: A personal account of projects and learnings. Maybe even a funny anecdote or two.
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
 highlighter: rouge
 encoding: bom|utf-8
 gems: 
