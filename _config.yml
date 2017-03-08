@@ -8,6 +8,9 @@ theme:
 theme: jekyll-theme-minimal
 highlighter: rouge
 encoding: bom|utf-8
+<<<<<<< HEAD
 gems: 
 	- jemoji
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
