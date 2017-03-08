@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Welcome Home
-hero: Royally-Handmade Today
+title: The Home Page
+hero: All stuff regarding Royally-Handmade and associated projects.
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

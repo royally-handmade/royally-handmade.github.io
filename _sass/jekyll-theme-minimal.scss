@@ -118,13 +118,12 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px;
+  width:250px;
 }
 
 header li {
-  width:89px;
+  width:250px;
   float:left;
-  border-right:1px solid #e0e0e0;
   height:40px;
 }
 
@@ -140,10 +139,11 @@ header ul a {
   line-height:1;
   font-size:11px;
   color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
+  display: block;
+  text-align:left;
+  padding-top: 10px;
+  padding-left: 30px;
+  height:80px;
 }
 
 header ul a:hover {
@@ -157,6 +157,7 @@ header ul a:active {
 strong {
   color:#222;
   font-weight:700;
+  padding-left: 15px;
 }
 
 header ul li + li + li {
@@ -166,7 +167,7 @@ header ul li + li + li {
 
 header ul a strong {
   font-size:14px;
-  display:block;
+  display: in-line;
   color:#222;
 }
 

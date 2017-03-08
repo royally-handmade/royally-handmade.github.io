@@ -1,16 +1,7 @@
-title: Minimal theme
-description: Minimal is a theme for GitHub Pages.
+title: Royally-Handmade Today
+description: An organized chaos of collective thoughts.
 show_downloads: true
 google_analytics:
-<<<<<<< HEAD
-theme: 
-=======
 theme: jekyll-theme-minimal
 highlighter: rouge
 encoding: bom|utf-8
-<<<<<<< HEAD
-gems: 
-	- jemoji
->>>>>>> origin/master
-=======
->>>>>>> origin/master
