@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Welcome Home
+hero: Royally-Handmade Today
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
