@@ -1,16 +1,11 @@
-title: Jekyll Vision Casper Theme
-email: hugo.colombo23@gmail.com
+title: Royally-Handmade Today
+description: An organized chaos of collective thoughts.
 author:
-  picture: http://site.hugocarreira.me/assets/img/compressed/hugo.jpg #URL FORMAT
-  name: Hugo Carreira
-  location: Rio de Janeiro - Brazil
-  description: "19 years old, studying computer science"  
-description: only my simple vision of casper theme
-baseurl: "/"
-url: https://hugocarreira.github.io/jekyll-vision-casper-theme
-twitter_username: hugocolombo23
-github_username:  hugocarreira
-github_url: https://hugocarreira.github.io/jekyll-vision-casper-theme/
+  name: Courtney Campbell
+url: https://royally-handmade.github.io
+github_username: royally-handmade
+github_url: tps://royally-handmade.github.io
+repository: royally-handmade/royally-handmade.github.io
 
 # Build settings
 permalink: :title
@@ -23,6 +18,7 @@ highlighter: rouge
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-github-metadata
 exclude:
   - Gemfile
   - Gemfile.lock
