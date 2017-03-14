@@ -1,59 +1,41 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.hero }}</p>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
 
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        {% if site.show_downloads %}
-          <ul><li><a href="/index.html">Default<strong>Home Page</strong></a></li></ul>
-          <ul><li><a href="/another-page.html">Page 1<strong>Another</strong></a></li></ul>
-          <ul><li><a href="/blog.html">Page 2<strong>Blog</strong></a></li></ul>
-          <ul><li><a href="/about.html">Page 3<strong>About</strong></a></li></ul>
-        {% endif %}
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
+  {% if site.favicon %}
+  <link rel="shortcut icon" href="{{ site.github_url }}/favicon.ico">
   {% endif %}
-  </body>
+
+  <link rel="stylesheet" type="text/css" href="{{ site.github_url }}assets/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+</head>
+<body class="home-template nav-closed">
+
+  {% include menu.html %}
+  <div class="site-wrapper">
+    {% include header.html %}
+    <main id="content" class="content" role="main">
+    {{ content }}
+    </div>
+  </div>
+  {% include footer.html %}
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- You can safely delete this line if your theme does not require jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="{{ site.github_url }}assets/js/jquery.fitvids.js?v=b60459228a"></script>
+  <script type="text/javascript" src="{{ site.github_url }}assets/js/index.js?v=b60459228a"></script>
+  
+  {% include analytics.html %}
+
+</body>
 </html>
