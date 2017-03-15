@@ -1125,6 +1125,35 @@ body.page-template .post-title {
     line-height: 1.5em;
 }
 
+/*content on the index*/
+.index {
+    padding-left: 230px;
+}
+
+.monsters {
+    margin: 40px 0 0 0;
+}
+
+.monster {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    height: 450px;
+}
+
+.monster h2 {
+    font-size: 30px;
+}
+
+.monster .rating {
+    text-align: center;
+}
+
+.monster .rating img {
+    height: 30px;
+}
+
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post

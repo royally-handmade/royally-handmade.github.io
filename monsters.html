@@ -1,0 +1,14 @@
+---
+title: Monsters
+description: Change into which animal?
+layout: default
+---
+<div class="monsters">
+    {% for monster in site.monsters %}
+    <div class="monster">
+        <div class="image"><img src="{{ monster.image_path }}" alt="{{ monster.type }}" /></div>
+        <h2>{{ monster.name }}</h2>
+        <p>{{ monster.type }}:{{ monster.challenge_rating }}</p>
+    </div>
+    {% endfor %}
+</div>
