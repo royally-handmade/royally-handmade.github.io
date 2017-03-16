@@ -308,9 +308,9 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: #EFEFEF 1px solid;
-    margin: 3.2em 0;
-    padding: 0;
+    border-top: #777 1px solid;
+    margin: 1.2em 0;
+    padding:0;
 }
 
 blockquote {
@@ -1128,19 +1128,31 @@ body.page-template .post-title {
 /*content on the index*/
 .index {
     padding-left: 20%;
-}    
+    padding-right: 10%;
+}
 
 .monster {
-    width: 33%;
     box-sizing: border-box;
     height: 450px;
-    text-align: center;
+    text-align: left;
 }
 
-.monster h2 {
-    font-size: 30px;
+.monster img {
+    float: left;
+    padding-right: 5%;  
 }
 
+.monster hr {
+    margin-right: 10%;
+}
+
+.monster thead {
+    font-weight: bold;
+}
+
+.monster table {
+    max-width: 90%;
+}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
@@ -1826,7 +1838,7 @@ body.page-template .post-title {
     }
 
     hr {
-        margin: 2.4em 0;
+        margin: 1.2em 0;
     }
 
     ol, ul {
@@ -2038,7 +2050,7 @@ body.page-template .post-title {
     }
 
     hr {
-        margin: 1.75em 0;
+        margin: 1.0em 0;
     }
 
     p, ul, ol, dl {
