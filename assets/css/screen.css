@@ -529,29 +529,19 @@ table {
     background-color: transparent;
 }
 
-    <<<<<<< HEAD <<<<<<< HEAD ======= <<<<<<< HEAD > > > > > > > master ======= > > > > > > > master table th,
-    table td {
-        padding: 8px;
-        line-height: 20px;
-        text-align: left;
-        vertical-align: top;
-        border-top: #d6d6d6 1px solid;
-    }
+table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: #d6d6d6 1px solid;
+}
 
-    <<<<<<< HEAD <<<<<<< HEAD ======= ======= > > > > > > > master ======= table th,
-    table td {
-        padding: 8px;
-        line-height: 20px;
-        text-align: left;
-        vertical-align: top;
-        border-top: #d6d6d6 1px solid;
-    }
-
-> > > > > > > origin/master <<<<<<< HEAD > > > > > > > master ======= > > > > > > > master table th {
+table th {
     color: #000;
 }
 
-<<<<<<< HEAD <<<<<<< HEAD ======= > > > > > > > master table caption + thead tr:first-child th,
+table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
 table colgroup + thead tr:first-child th,
 table colgroup + thead tr:first-child td,
@@ -560,67 +550,27 @@ table thead:first-child tr:first-child td {
     border-top: 0;
 }
 
-<<<<<<< HEAD table tbody + tbody {
+table tbody + tbody {
     border-top: #d6d6d6 2px solid;
 }
 
-======= table caption + thead tr:first-child th,
-table caption + thead tr:first-child td,
-table colgroup + thead tr:first-child th,
-table colgroup + thead tr:first-child td,
-table thead:first-child tr:first-child th,
-table thead:first-child tr:first-child td {
-    border-top: 0;
-}
 
-<<<<<<< HEAD table tbody + tbody {
-    border-top: #d6d6d6 2px solid;
-}
-
-======= table tbody + tbody {
-    border-top: #d6d6d6 2px solid;
-}
-
-> > > > > > > origin/master > > > > > > > master table table table {
+table table table {
     background-color: #FFF;
 }
 
-<<<<<<< HEAD ======= <<<<<<< HEAD > > > > > > > master ======= <<<<<<< HEAD table tbody + tbody {
-    border-top: #d6d6d6 2px solid;
-}
 
-======= table tbody + tbody {
-    border-top: #d6d6d6 2px solid;
-}
-
-> > > > > > > origin/master table table table {
-    background-color: #FFF;
-}
-
-<<<<<<< HEAD > > > > > > > master table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
     background-color: #E0e0e0;
 }
 
-<<<<<<< HEAD <<<<<<< HEAD
-}
-
-======= ======= > > > > > > > master ======= table tbody > tr:nth-child(odd) > td,
-table tbody > tr:nth-child(odd) > th {
-    background-color: #E0e0e0;
-}
-
-> > > > > > > origin/master table.plain tbody > tr:nth-child(odd) > td,
+table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
     background: transparent;
 }
 
-<<<<<<< HEAD > > > > > > > master table.plain tbody > tr:nth-child(odd) > td,
-table.plain tbody > tr:nth-child(odd) > th {
-    background: transparent;
-}
-
-======= > > > > > > > master iframe, .fluid-width-video-wrapper {
+iframe, .fluid-width-video-wrapper {
     display: block;
     margin: 1.75em 0;
 }
