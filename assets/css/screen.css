@@ -529,8 +529,7 @@ table {
     background-color: transparent;
 }
 
-<<<<<<< HEAD
-    table th,
+    <<<<<<< HEAD <<<<<<< HEAD ======= <<<<<<< HEAD > > > > > > > master ======= > > > > > > > master table th,
     table td {
         padding: 8px;
         line-height: 20px;
@@ -538,60 +537,90 @@ table {
         vertical-align: top;
         border-top: #d6d6d6 1px solid;
     }
-=======
-table th,
-table td {
-    padding: 8px;
-    line-height: 20px;
-    text-align: left;
-    vertical-align: top;
-    border-top: #d6d6d6 1px solid;
+
+    <<<<<<< HEAD <<<<<<< HEAD ======= ======= > > > > > > > master ======= table th,
+    table td {
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: #d6d6d6 1px solid;
+    }
+
+> > > > > > > origin/master <<<<<<< HEAD > > > > > > > master ======= > > > > > > > master table th {
+    color: #000;
 }
->>>>>>> origin/master
 
-    table th {
-        color: #000;
-    }
+<<<<<<< HEAD <<<<<<< HEAD ======= > > > > > > > master table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+    border-top: 0;
+}
 
-    table caption + thead tr:first-child th,
-    table caption + thead tr:first-child td,
-    table colgroup + thead tr:first-child th,
-    table colgroup + thead tr:first-child td,
-    table thead:first-child tr:first-child th,
-    table thead:first-child tr:first-child td {
-        border-top: 0;
-    }
+<<<<<<< HEAD table tbody + tbody {
+    border-top: #d6d6d6 2px solid;
+}
 
-<<<<<<< HEAD
-    table tbody + tbody {
-        border-top: #d6d6d6 2px solid;
-    }
-=======
-table tbody + tbody { border-top: #d6d6d6 2px solid; }
->>>>>>> origin/master
+======= table caption + thead tr:first-child th,
+table caption + thead tr:first-child td,
+table colgroup + thead tr:first-child th,
+table colgroup + thead tr:first-child td,
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+    border-top: 0;
+}
 
-    table table table {
-        background-color: #FFF;
-    }
+<<<<<<< HEAD table tbody + tbody {
+    border-top: #d6d6d6 2px solid;
+}
 
-<<<<<<< HEAD
-    table tbody > tr:nth-child(odd) > td,
-    table tbody > tr:nth-child(odd) > th {
-        background-color: #E0e0e0;
-    }
-=======
-table tbody > tr:nth-child(odd) > td,
+======= table tbody + tbody {
+    border-top: #d6d6d6 2px solid;
+}
+
+> > > > > > > origin/master > > > > > > > master table table table {
+    background-color: #FFF;
+}
+
+<<<<<<< HEAD ======= <<<<<<< HEAD > > > > > > > master ======= <<<<<<< HEAD table tbody + tbody {
+    border-top: #d6d6d6 2px solid;
+}
+
+======= table tbody + tbody {
+    border-top: #d6d6d6 2px solid;
+}
+
+> > > > > > > origin/master table table table {
+    background-color: #FFF;
+}
+
+<<<<<<< HEAD > > > > > > > master table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
     background-color: #E0e0e0;
 }
->>>>>>> origin/master
 
-    table.plain tbody > tr:nth-child(odd) > td,
-    table.plain tbody > tr:nth-child(odd) > th {
-        background: transparent;
-    }
+<<<<<<< HEAD <<<<<<< HEAD
+}
 
-iframe, .fluid-width-video-wrapper {
+======= ======= > > > > > > > master ======= table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+    background-color: #E0e0e0;
+}
+
+> > > > > > > origin/master table.plain tbody > tr:nth-child(odd) > td,
+table.plain tbody > tr:nth-child(odd) > th {
+    background: transparent;
+}
+
+<<<<<<< HEAD > > > > > > > master table.plain tbody > tr:nth-child(odd) > td,
+table.plain tbody > tr:nth-child(odd) > th {
+    background: transparent;
+}
+
+======= > > > > > > > master iframe, .fluid-width-video-wrapper {
     display: block;
     margin: 1.75em 0;
 }
@@ -949,11 +978,20 @@ body.nav-opened .nav {
     transition: all ease 0.3s;
 }
 
-    .subscribe-button:before {
-        font-size: 9px;
-        margin-right: 6px;
-    }
+<<<<<<< HEAD <<<<<<< HEAD ======= ======= .subscribe-button:before {
+    font-size: 9px;
+    margin-right: 6px;
+}
 
+> > > > > > > master .subscribe-button:before {
+    font-size: 9px;
+    margin-right: 6px;
+}
+
+> > > > > > > master .subscribe-button:before {
+    font-size: 9px;
+    margin-right: 6px;
+}
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
@@ -1295,12 +1333,14 @@ body.page-template .post-title {
 .index {
     padding-left: 20%;
     padding-right: 10%;
+    margin-bottom: 20px;
 }
 
 .monster {
     box-sizing: border-box;
     height: 450px;
     text-align: left;
+    margin-bottom: 20%;
 }
 
     .monster img {
@@ -1392,6 +1432,10 @@ body.page-template .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
+}
+
+.tab {
+    margin-left: 40px;
 }
 
 .footnotes {
@@ -1936,7 +1980,7 @@ body.page-template .post-title {
    ========================================================================== */
 
 .site-footer {
-    position: relative;
+    position: absolute;
     margin: 8rem 0 0 0;
     padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
