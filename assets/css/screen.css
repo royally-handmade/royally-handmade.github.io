@@ -529,6 +529,7 @@ table {
     background-color: transparent;
 }
 
+<<<<<<< HEAD
     table th,
     table td {
         padding: 8px;
@@ -537,6 +538,16 @@ table {
         vertical-align: top;
         border-top: #d6d6d6 1px solid;
     }
+=======
+table th,
+table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: #d6d6d6 1px solid;
+}
+>>>>>>> origin/master
 
     table th {
         color: #000;
@@ -551,18 +562,29 @@ table {
         border-top: 0;
     }
 
+<<<<<<< HEAD
     table tbody + tbody {
         border-top: #d6d6d6 2px solid;
     }
+=======
+table tbody + tbody { border-top: #d6d6d6 2px solid; }
+>>>>>>> origin/master
 
     table table table {
         background-color: #FFF;
     }
 
+<<<<<<< HEAD
     table tbody > tr:nth-child(odd) > td,
     table tbody > tr:nth-child(odd) > th {
         background-color: #E0e0e0;
     }
+=======
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+    background-color: #E0e0e0;
+}
+>>>>>>> origin/master
 
     table.plain tbody > tr:nth-child(odd) > td,
     table.plain tbody > tr:nth-child(odd) > th {
@@ -1297,6 +1319,10 @@ body.page-template .post-title {
     .monster table {
         max-width: 90%;
     }
+
+.skills li {
+    list-style: none;
+}
 
 .skills li {
     list-style: none;
