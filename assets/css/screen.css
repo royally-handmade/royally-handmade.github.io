@@ -376,6 +376,7 @@ a {
 
     a:hover {
         color: #111;
+
     }
 
 p, ul, ol, dl {
@@ -928,17 +929,17 @@ body.nav-opened .nav {
     transition: all ease 0.3s;
 }
 
-<<<<<<< HEAD <<<<<<< HEAD ======= ======= .subscribe-button:before {
+.subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
 }
 
-> > > > > > > master .subscribe-button:before {
+.subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
 }
 
-> > > > > > > master .subscribe-button:before {
+.subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
 }
@@ -1222,7 +1223,7 @@ body.page-template .post-title {
     text-decoration: none;
 }
 
-    .post-meta a:hover {
+.post-meta a:hover {
         text-decoration: underline;
     }
 
@@ -1281,7 +1282,7 @@ body.page-template .post-title {
 
 /*content on the index*/
 .index {
-    padding-left: 10%;
+    padding-left: 15%;
     padding-right: 10%;
     margin-bottom: 20px;
 }
@@ -1293,22 +1294,22 @@ body.page-template .post-title {
     margin-bottom: 20%;
 }
 
-    .monster img {
-        float: left;
-        padding-right: 5%;
-    }
+.monster img {
+    float: left;
+    padding-right: 5%;
+}
 
-    .monster hr {
-        margin-right: 10%;
-    }
+.monster hr {
+    margin-right: 10%;
+}
 
-    .monster thead {
-        font-weight: bold;
-    }
+.monster thead {
+    font-weight: bold;
+}
 
-    .monster table {
-        max-width: 90%;
-    }
+.monster table {
+    max-width: 100%;
+}
 
 .skills li {
     list-style: none;
@@ -1316,6 +1317,16 @@ body.page-template .post-title {
 
 .skills li {
     list-style: none;
+}
+
+/*post page layout*/
+.post-header a {
+    color: #111;
+    border-bottom: 1px dotted;
+}
+
+.post-header a:hover {
+    color: #929292;
 }
 
 /* ==========================================================================
@@ -2116,6 +2127,7 @@ body.page-template .post-title {
         border-top: rgba(0,0,100,0.06) 1px solid;
         border-left: none;
     }
+
 }
 
 
@@ -2149,9 +2161,9 @@ body.page-template .post-title {
         padding: 5px;
     }
 
-        .blog-logo img {
-            height: 30px;
-        }
+    .blog-logo img {
+        height: 30px;
+    }
 
     .menu-button {
         padding: 0 5px;
@@ -2161,11 +2173,11 @@ body.page-template .post-title {
         background: transparent;
     }
 
-        .menu-button:hover {
-            color: #2e2e2e;
-            border-color: transparent;
-            background: none;
-        }
+    .menu-button:hover {
+        color: #2e2e2e;
+        border-color: transparent;
+        background: none;
+    }
 
     body.nav-opened .menu-button {
         background: none;
@@ -2182,9 +2194,9 @@ body.page-template .post-title {
         background: none;
     }
 
-        .no-cover .main-nav.overlay .menu-button {
-            border: none;
-        }
+    .no-cover .main-nav.overlay .menu-button {
+        border: none;
+    }
 
     .main-nav.overlay .menu-button {
         border-color: transparent;
@@ -2315,20 +2327,20 @@ body.page-template .post-title {
         text-align: center;
     }
 
-        .post-footer .author {
-            margin: 0 0 2rem 0;
-            padding: 0 0 1.6rem 0;
-            border-bottom: #EBF2F6 1px dashed;
-        }
+    .post-footer .author {
+        margin: 0 0 2rem 0;
+        padding: 0 0 1.6rem 0;
+        border-bottom: #EBF2F6 1px dashed;
+    }
 
-        .post-footer .share {
-            position: static;
-            width: auto;
-        }
+    .post-footer .share {
+        position: static;
+        width: auto;
+    }
 
-            .post-footer .share a {
-                margin: 1.4rem 0.8rem 0 0.8rem;
-            }
+    .post-footer .share a {
+        margin: 1.4rem 0.8rem 0 0.8rem;
+    }
 
     .author-meta li {
         float: none;
@@ -2336,9 +2348,9 @@ body.page-template .post-title {
         line-height: 1.75em;
     }
 
-        .author-meta li:before {
-            display: none;
-        }
+    .author-meta li:before {
+        display: none;
+    }
 
     .older-posts,
     .newer-posts {
@@ -2387,18 +2399,31 @@ body.page-template .post-title {
         padding: 15px;
     }
 
-        .gh-subscribe form {
-            margin-top: 10px;
-        }
+    .gh-subscribe form {
+        margin-top: 10px;
+    }
 
     .read-next {
         margin-top: 2rem;
         margin-bottom: -37px;
     }
 
-        .read-next .post {
-            width: 100%;
-        }
+    .read-next .post {
+        width: 100%;
+    }
+
+    .index {
+        padding-left: 8%;
+    }
+
+    .monster img {
+        max-width: 70%;
+    }
+
+    .monster table {
+        font-size: 0.8em;
+        padding-left: 6%;
+    }
 }
 
 
