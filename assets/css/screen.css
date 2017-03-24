@@ -376,7 +376,6 @@ a {
 
     a:hover {
         color: #111;
-
     }
 
 p, ul, ol, dl {
@@ -530,46 +529,46 @@ table {
     background-color: transparent;
 }
 
-table td {
-    padding: 8px;
-    line-height: 20px;
-    text-align: left;
-    vertical-align: top;
-    border-top: #d6d6d6 1px solid;
-}
+    table td {
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: #d6d6d6 1px solid;
+    }
 
-table th {
-    color: #000;
-}
+    table th {
+        color: #000;
+    }
 
-table caption + thead tr:first-child th,
-table caption + thead tr:first-child td,
-table colgroup + thead tr:first-child th,
-table colgroup + thead tr:first-child td,
-table thead:first-child tr:first-child th,
-table thead:first-child tr:first-child td {
-    border-top: 0;
-}
+    table caption + thead tr:first-child th,
+    table caption + thead tr:first-child td,
+    table colgroup + thead tr:first-child th,
+    table colgroup + thead tr:first-child td,
+    table thead:first-child tr:first-child th,
+    table thead:first-child tr:first-child td {
+        border-top: 0;
+    }
 
-table tbody + tbody {
-    border-top: #d6d6d6 2px solid;
-}
-
-
-table table table {
-    background-color: #FFF;
-}
+    table tbody + tbody {
+        border-top: #d6d6d6 2px solid;
+    }
 
 
-table tbody > tr:nth-child(odd) > td,
-table tbody > tr:nth-child(odd) > th {
-    background-color: #E0e0e0;
-}
+    table table table {
+        background-color: #FFF;
+    }
 
-table.plain tbody > tr:nth-child(odd) > td,
-table.plain tbody > tr:nth-child(odd) > th {
-    background: transparent;
-}
+
+    table tbody > tr:nth-child(odd) > td,
+    table tbody > tr:nth-child(odd) > th {
+        background-color: #E0e0e0;
+    }
+
+    table.plain tbody > tr:nth-child(odd) > td,
+    table.plain tbody > tr:nth-child(odd) > th {
+        background: transparent;
+    }
 
 iframe, .fluid-width-video-wrapper {
     display: block;
@@ -725,7 +724,7 @@ body.nav-opened .site-wrapper {
     display: table;
     width: 100%;
     height: 100vh;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     text-align: center;
     background: url(/assets/images/testing-home-2.jpg), no-repeat top center;
     background-size: cover;
@@ -929,20 +928,20 @@ body.nav-opened .nav {
     transition: all ease 0.3s;
 }
 
-.subscribe-button:before {
-    font-size: 9px;
-    margin-right: 6px;
-}
+    .subscribe-button:before {
+        font-size: 9px;
+        margin-right: 6px;
+    }
 
-.subscribe-button:before {
-    font-size: 9px;
-    margin-right: 6px;
-}
+    .subscribe-button:before {
+        font-size: 9px;
+        margin-right: 6px;
+    }
 
-.subscribe-button:before {
-    font-size: 9px;
-    margin-right: 6px;
-}
+    .subscribe-button:before {
+        font-size: 9px;
+        margin-right: 6px;
+    }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
@@ -1223,7 +1222,7 @@ body.page-template .post-title {
     text-decoration: none;
 }
 
-.post-meta a:hover {
+    .post-meta a:hover {
         text-decoration: underline;
     }
 
@@ -1279,6 +1278,33 @@ body.page-template .post-title {
     font-size: 1.4rem;
     line-height: 1.5em;
 }
+/* Menu navigation */
+
+#menu-bar li {
+    display: inline;
+    margin: 10px;
+    text-align: left;
+    list-style: disc;
+}
+#menu-bar ul {
+    padding: 0px;
+}
+
+#menu-bar a {
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+#menu-bar a:hover {
+    border-bottom: 1px dotted;
+}
+
+#menu-bar {
+    background-color: white;
+    max-width: 80%;
+    height: 35px;
+    margin-bottom: 2rem;
+}
 
 /*content on the index*/
 .index {
@@ -1294,22 +1320,22 @@ body.page-template .post-title {
     margin-bottom: 20%;
 }
 
-.monster img {
-    float: left;
-    padding-right: 5%;
-}
+    .monster img {
+        float: left;
+        padding-right: 5%;
+    }
 
-.monster hr {
-    margin-right: 10%;
-}
+    .monster hr {
+        margin-right: 10%;
+    }
 
-.monster thead {
-    font-weight: bold;
-}
+    .monster thead {
+        font-weight: bold;
+    }
 
-.monster table {
-    max-width: 90%;
-}
+    .monster table {
+        max-width: 90%;
+    }
 
 .skills li {
     list-style: none;
@@ -1325,9 +1351,9 @@ body.page-template .post-title {
     border-bottom: 1px dotted;
 }
 
-.post-header a:hover {
-    color: #929292;
-}
+    .post-header a:hover {
+        color: #929292;
+    }
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
@@ -2127,7 +2153,6 @@ body.page-template .post-title {
         border-top: rgba(0,0,100,0.06) 1px solid;
         border-left: none;
     }
-
 }
 
 
@@ -2161,9 +2186,9 @@ body.page-template .post-title {
         padding: 5px;
     }
 
-    .blog-logo img {
-        height: 30px;
-    }
+        .blog-logo img {
+            height: 30px;
+        }
 
     .menu-button {
         padding: 0 5px;
@@ -2173,11 +2198,11 @@ body.page-template .post-title {
         background: transparent;
     }
 
-    .menu-button:hover {
-        color: #2e2e2e;
-        border-color: transparent;
-        background: none;
-    }
+        .menu-button:hover {
+            color: #2e2e2e;
+            border-color: transparent;
+            background: none;
+        }
 
     body.nav-opened .menu-button {
         background: none;
@@ -2194,9 +2219,9 @@ body.page-template .post-title {
         background: none;
     }
 
-    .no-cover .main-nav.overlay .menu-button {
-        border: none;
-    }
+        .no-cover .main-nav.overlay .menu-button {
+            border: none;
+        }
 
     .main-nav.overlay .menu-button {
         border-color: transparent;
@@ -2327,20 +2352,20 @@ body.page-template .post-title {
         text-align: center;
     }
 
-    .post-footer .author {
-        margin: 0 0 2rem 0;
-        padding: 0 0 1.6rem 0;
-        border-bottom: #EBF2F6 1px dashed;
-    }
+        .post-footer .author {
+            margin: 0 0 2rem 0;
+            padding: 0 0 1.6rem 0;
+            border-bottom: #EBF2F6 1px dashed;
+        }
 
-    .post-footer .share {
-        position: static;
-        width: auto;
-    }
+        .post-footer .share {
+            position: static;
+            width: auto;
+        }
 
-    .post-footer .share a {
-        margin: 1.4rem 0.8rem 0 0.8rem;
-    }
+            .post-footer .share a {
+                margin: 1.4rem 0.8rem 0 0.8rem;
+            }
 
     .author-meta li {
         float: none;
@@ -2348,9 +2373,9 @@ body.page-template .post-title {
         line-height: 1.75em;
     }
 
-    .author-meta li:before {
-        display: none;
-    }
+        .author-meta li:before {
+            display: none;
+        }
 
     .older-posts,
     .newer-posts {
@@ -2399,18 +2424,18 @@ body.page-template .post-title {
         padding: 15px;
     }
 
-    .gh-subscribe form {
-        margin-top: 10px;
-    }
+        .gh-subscribe form {
+            margin-top: 10px;
+        }
 
     .read-next {
         margin-top: 2rem;
         margin-bottom: -37px;
     }
 
-    .read-next .post {
-        width: 100%;
-    }
+        .read-next .post {
+            width: 100%;
+        }
 
     .index {
         padding-left: 8%;
