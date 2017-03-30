@@ -1157,7 +1157,7 @@ body.nav-opened .nav {
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
+    border-bottom: #d6d6d6 1px solid;
     word-wrap: break-word;
 }
 
@@ -1168,7 +1168,7 @@ body.nav-opened .nav {
         content: "";
         width: 7px;
         height: 7px;
-        border: #E7EEF2 1px solid;
+        border: #d6d6d6 1px solid;
         position: absolute;
         bottom: -5px;
         left: 50%;
@@ -1469,7 +1469,7 @@ body.page-template .post-title {
     position: relative;
     margin: 6rem 0 0 0;
     padding: 3rem 0 0 0;
-    border-top: #EBF2F6 1px solid;
+    border-top: #d6d6d6 1px solid;
 }
 
     .post-footer h4 {
@@ -1618,7 +1618,7 @@ body.page-template .post-title {
     padding: 6px;
     background: #fff;
     z-index: 2;
-    box-shadow: #E7EEF2 0 0 0 1px;
+    box-shadow: #d6d6d6 0 0 0 1px;
 }
 
     .author-image .img {
