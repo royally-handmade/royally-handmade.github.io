@@ -1306,6 +1306,26 @@ body.page-template .post-title {
     margin-bottom: 2rem;
 }
 
+/*back to top button*/
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #d6d6d6;
+    background-color: transparent;
+}
+
+.back-to-top i {
+    font-size: 60px;
+}
+
 /*content on the index*/
 .index {
     padding-left: 15%;
