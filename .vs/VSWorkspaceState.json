@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\about",
+=======
+>>>>>>> origin/master
     "\\assets",
     "\\assets\\css",
     "\\assets\\fonts",
@@ -11,6 +14,6 @@
     "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
