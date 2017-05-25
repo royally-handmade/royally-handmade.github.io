@@ -407,6 +407,7 @@ dl dt {
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: 700;
+    margin-left: 100px;
     margin-bottom: 1em;
 }
 
