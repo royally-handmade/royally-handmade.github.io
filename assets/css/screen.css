@@ -400,7 +400,7 @@ ol, ul {
 
 dl dt {
     float: left;
-    width: 180px;
+    /*width: 180px;*/
     overflow: hidden;
     clear: left;
     text-align: right;
@@ -411,7 +411,7 @@ dl dt {
 }
 
 dl dd {
-    margin-left: 200px;
+    margin-left: 100px;
     margin-bottom: 1em
 }
 
