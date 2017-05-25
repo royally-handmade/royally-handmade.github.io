@@ -9,7 +9,7 @@ repository: royally-handmade/royally-handmade.github.io
 
 # Build settings
 permalink: :title
-paginate: 1
+paginate: 5
 paginate_path: "page:num"
 kramdown:
   input: GFM
