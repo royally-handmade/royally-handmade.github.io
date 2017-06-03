@@ -33,7 +33,6 @@
   {% include footer.html %}
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-  <!-- You can safely delete this line if your theme does not require jQuery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="{{ site.github_url }}assets/js/jquery.fitvids.js?v=b60459228a"></script>
   <script type="text/javascript" src="{{ site.github_url }}assets/js/index.js?v=b60459228a"></script>
@@ -58,6 +57,24 @@
                 return false;
             })
         });</script>
+    <script>
+            var modal = document.getElementById('myModal');
+
+            var captionText = document.getElementById("caption");
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+
+            img.onclick = function () {
+                captionText.innerHTML = this.alt;
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function () {
+                modal.style.display = "none";
+            }</script>
 
   {% include analytics.html %}
 
