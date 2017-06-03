@@ -2,6 +2,7 @@
 title: Props
 description: Letters, Maps, and NPCs! Oh My!
 layout: page
+map_url1: /assets/images/map.jpg
 ---
 <p>
     <h2>NPCs</h2>
@@ -77,13 +78,67 @@ layout: page
         </ul>
     </details>
 </p>
-<p>
     <h2>Maps</h2>
-
-    <img id="myImg" src="/assets/images/map.jpg" alt="The Dessarin Valley 1.0   " width="200" height="300">
-    <div id="myModal" class="modal">
-        <div id="caption"></div>
+    <!--<img src="/assets/images/map.jpg" class="mapImg" alt="The Dessarin Valley 1.0" width="200" height="300">
+    <div class="modal" id="myModal">
+        <div class="caption"></div>
         <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
         <img class="modal-content" id="img01">
+    </div>-->
+
+    <div class="row">
+        <div class="column">
+            <img src="{{ page.map_url1 }}"  onclick="openModal();currentSlide(1)" class="mapImg">
+        </div>
+        <!--<div class="column">
+            <img src="/assets/images/map.jpg" onclick="openModal();currentSlide(2)" class="mapImg">
+        </div>
+        <div class="column">
+            <img src="/assets/images/map.jpg" onclick="openModal();currentSlide(3)" class="mapImg">
+        </div>
+        <div class="column">
+            <img src="/assets/images/map.jpg" onclick="openModal();currentSlide(4)" class="mapImg">
+        </div>-->
     </div>
-</p>
+
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+			<div class="mySlides">
+				<img src="{{ page.map_url1 }}" style="width: 100%">
+			</div>
+
+			<!--<div class="mySlides">
+				<img src="/assets/images/map.jpg" style="width: 100%">
+			</div>
+
+			<div class="mySlides">
+				<img src="/assets/images/map.jpg" style="width: 100%">
+			</div>
+
+			<div class="mySlides">
+				<img src="/assets/images/map.jpg" style="width: 100%">
+			</div>-->
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="column">
+                <img class="demo" src="{{ page.map_url1 }}" onclick="currentSlide(1)" alt="The Dessarin Valley 1.0">
+            </div>
+            <!--<div class="column">
+                <img class="demo" src="{{ page.map_url2 }}" onclick="currentSlide(2)" alt="Trolltunga">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="{{ page.map_url3 }}" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="{{ page.map_url4 }}" onclick="currentSlide(4)" alt="Lights">
+            </div>-->
+        </div>
+    </div>

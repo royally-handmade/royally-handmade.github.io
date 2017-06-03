@@ -1380,15 +1380,35 @@ body.page-template .post-title {
     color: #929292;
 }
 
-
-#myImg {
+/*The Map Modals*/
+.mapImg {
     border-radius: 5px;
     cursor: pointer;
+    max-width: 100%;
     transition: 0.3s;
 }
 
-#myImg:hover {
+.mapImg:hover {
     opacity: 0.7;
+}
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 23%;
+}
+
+.modal::-webkit-scrollbar {
+    display: none;
 }
 
 .modal {
@@ -1397,18 +1417,29 @@ body.page-template .post-title {
     z-index: 1;
     padding-top: 100px;
     left: 0;
-    top: 0;
+    top: 10px;
     width: 100%;
-    height: 100%;
+    height: 80%;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.9);
+    background-color: black;
 }
 
 .modal-content {
+    position: center;
+    background-color: black;
     margin: auto;
-    display: block;
-    max-width: 100%;
+    padding: 0;
+}
+
+.mySlides {
+    display: none;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
 }
 
 #caption {
@@ -1418,14 +1449,52 @@ body.page-template .post-title {
     max-width: 700px;
     text-align: center;
     color: #ccc;
+    padding: 10px 0;
     height: 50px;
 }
 
-.modal-content, #caption {
+.modal-content, .caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img.demo {
+    opacity: 0.6;
+    max-width: 100%;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
 }
 
 @-webkit-keyframes zoom {
