@@ -65,9 +65,10 @@
             var modalImg = document.getElementById("img01");
 
             img.onclick = function () {
-                captionText.innerHTML = this.alt;
+                
                 modal.style.display = "block";
                 modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
             }
 
             var span = document.getElementsByClassName("close")[0];
