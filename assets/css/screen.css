@@ -1350,16 +1350,12 @@ body.page-template .post-title {
     padding-right: 5%;
 }
 
-.monster hr {
-    margin-right: 10%;
-}
-
 .monster thead {
     font-weight: bold;
 }
 
 .monster table {
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .skills li {
